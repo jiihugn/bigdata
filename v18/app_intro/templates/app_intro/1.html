@@ -1,0 +1,98 @@
+{% extends 'base.html' %} 
+{% block title %} 網頁介紹 {% endblock title %}
+{% block content %}
+<style>
+    .section-title {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 1.5rem;
+        border-bottom: 2px solid #0d6efd;
+        padding-bottom: 5px;
+    }
+</style>
+
+<div class="col-lg-12">
+    <h1 class="text-center mb-5">📰 新聞分析平台</h1>
+    
+    <p class="lead text-center">
+        本系統是一套整合新聞資料分析與 AI 智能應用的網頁平台，提供多樣化的新聞內容探勘工具，支援熱門關鍵詞分析、人物排行、全文檢索、情緒分析，以及呼叫大型語言模型進行智能報告生成。<br>
+        主要特色：可視化結果、多元分析模式、即時互動操作、AI模型整合。
+    </p>
+
+    <div class="section-title">🔍 主要功能模組說明</div>
+
+    <div class="feature-section">
+
+        <h5>1️⃣ 熱門關鍵詞與人物分析</h5>
+        <ul>
+            <li>熱門關鍵詞分析：根據資料中新聞的熱門關鍵詞，呈現趨勢變化。</li>
+            <li>熱門人物排行分析：辨識並排序出現頻率最高的新聞人物。</li>
+            <li>川普聲量我最大：針對「川普」相關新聞進行聲量分析。</li>
+            <li>聲量觀測站：追蹤特定人物或關鍵詞的聲量變化。</li>
+        </ul>
+
+        <h5>2️⃣ 自訂關鍵詞探索工具</h5>
+        <ul>
+            <li>自訂關鍵詞熱門度分析：輸入自選關鍵詞，查看其出現頻率及趨勢。</li>
+            <li>自訂全文檢索與關聯分析：全文檢索新聞內容，探索關鍵詞間的關聯性。</li>
+            <li>自訂全文檢索與關聯分析 (DB 版)：從資料庫進行高效檢索與關聯性分析。</li>
+        </ul>
+
+        <h5>3️⃣ AI 驅動分析</h5>
+        <ul>
+            <li>自訂關鍵詞之情緒分析：判斷關鍵詞相關新聞的情緒傾向（正向、中性、負向）。</li>
+            <li>自訂關鍵詞：呼叫語言模型產生分析報告：整合大型語言模型，生成針對自選關鍵詞的深入分析報告。</li>
+            <li>關鍵字相關新聞 AI 分析：AI 自動分析特定關鍵字相關新聞，提供摘要與見解。</li>
+        </ul>
+
+        <h5>4️⃣ 新聞分類與情緒判斷</h5>
+        <ul>
+            <li>文字情緒分類：判斷任意輸入文字的情緒傾向。</li>
+            <li>新聞分類：自動分類新聞至對應類別（如政治、經濟、體育等）。</li>
+            <li>Bert 模型情緒分類：使用 Bert 模型進行情緒判斷。</li>
+            <li>Bert 模型新聞分類：使用 Bert 模型進行新聞自動分類。</li>
+        </ul>
+
+        <h5>5️⃣ 進階功能與管理工具</h5>
+        <ul>
+            <li>熱門人物 (從資料庫查詢)：即時查詢資料庫中熱門人物。</li>
+            <li>熱門人物立刻計算 (管理者定時執行)：供管理者執行熱門人物即時計算任務。</li>
+            <li>找出特定媒體所發布的新聞：快速篩選並展示指定媒體之新聞報導。</li>
+            <li>熱門運動項目新聞：呈現目前熱門運動領域相關新聞。</li>
+        </ul>
+
+        <h5>6️⃣ 多模型 AI 支援</h5>
+        <ul>
+            <li>本地端 Qwen2.5-0.5b-instruct：使用本地端語言模型進行各類文本生成與分析。</li>
+            <li>遠端 Ollama Gemma3:4b 模型：整合遠端大型語言模型，提供更強大的生成能力。</li>
+        </ul>
+
+    </div>
+
+    <div class="section-title">📊 數據來源</div>
+        <p>本平台使用 <a href="https://tw.news.yahoo.com/">Yahoo新聞</a> 提供的新聞數據，涵蓋全台多家主流媒體。</p>
+        <p>資料量：69篇</p>
+
+    <div class="section-title">🎯 應用場景</div>
+    <ul>
+        <li>媒體監測</li>
+        <li>品牌聲量分析</li>
+        <li>公共議題觀測</li>
+        <li>投資風險情緒追蹤</li>
+        <li>社群輿情分析</li>
+        <li>個人新聞閱讀助手</li>
+    </ul>
+
+    <div class="section-title">🚀 願景</div>
+    <p>整合 AI 與新聞數據分析，協助用戶快速掌握社會脈動，洞察輿情趨勢，提供即時、有深度的媒體分析工具。</p>
+</div>
+
+{% endblock content %} 
+{% block extra_css %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" >
+{% endblock %}
+{% block extra_js %}
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+{% endblock %}
+

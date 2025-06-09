@@ -1,0 +1,6 @@
+from django.apps import AppConfig
+
+
+class AppUserKeywordAssociationConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'app_media_top_keyword'

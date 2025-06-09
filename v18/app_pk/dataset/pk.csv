@@ -1,0 +1,10 @@
+name,value
+list_freq_daily_line_chart,"[[{'x': '2025-03-24', 'y': 1}, {'x': '2025-03-25', 'y': 0}, {'x': '2025-03-26', 'y': 0}, {'x': '2025-03-27', 'y': 11}], [{'x': '2025-03-24', 'y': 0}, {'x': '2025-03-25', 'y': 0}, {'x': '2025-03-26', 'y': 2}, {'x': '2025-03-27', 'y': 9}], [{'x': '2025-03-24', 'y': 0}, {'x': '2025-03-25', 'y': 0}, {'x': '2025-03-26', 'y': 2}, {'x': '2025-03-27', 'y': 12}]]"
+list_pkNames,"['美國', '中國', '台灣']"
+list_colors,"['rgba(0,128,0,0.2)', 'rgba(0,255,255,0.2)', 'rgba(0,0,255,0.2)']"
+list_photos,"['http://img2.xixik.com/custom/section/usa-stats/xixik-3cad9866dd470fd7.jpg', 'https://media.istockphoto.com/id/690292670/zh/%E5%90%91%E9%87%8F/%E4%B8%AD%E5%9C%8B%E5%9C%B0%E5%9C%96%E5%92%8C%E5%9C%8B%E6%97%97.jpg?s=612x612&w=0&k=20&c=wUrsN8Fde5GQy7ngRzdjIMg9C6Ly_n4XG280O9XD5I4=', 'https://shopping.line-scdn.net/0hL-j3rEy_EwJXSgWi3HJsVQUXD3M_PEoVKHIJICAPU2YueVRWYitcMSAYSTBzKQFWPitbYiVCTTNyKAYGaSQJCnNKS2V6c1RcPyhVbHNLCDMue1YEPigL/w360']"
+list_freq_news_category,"[[12, 5, 2, 2], [11, 6, 4, 0], [14, 0, 6, 1]]"
+list_category,"['全部', '國際', '政治', '財經']"
+list_sentiInfo,"[[67, 17, 17], [73, 18, 9], [86, 7, 7]]"
+list_total_articles,"[12, 11, 14]"
+list_total_frequency,"[58, 25, 39]"
